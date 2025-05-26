@@ -14,6 +14,11 @@ epoch = 2.5
 path = 'contracts/facility-verification.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.iot-device-management]
+path = 'contracts/iot-device-management.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
